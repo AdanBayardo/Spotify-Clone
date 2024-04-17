@@ -1,11 +1,10 @@
 {
- 
   "compilerOptions": {
-    "baseUrl": ".",
+    "baseUrl": "C:/Users/Adán/Documents/Projects/spotify-clone",
     "paths": {
       "@/*": [
         "src/*"
-    ],
+      ],
       "@/components": [
         "src/components/*"
       ],
@@ -15,7 +14,9 @@
       "@/lib": [
         "src/lib/*"
       ]
-    }
+    },
+    "jsx": "react-jsx",
+    "jsxImportSource": "react"
   },
-  "extends": "astro/tsconfigs/strict",
+  "extends": "astro/tsconfigs/strict"
 }
